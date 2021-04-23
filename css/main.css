@@ -1,0 +1,229 @@
+/* Общие стили */
+body {
+    background: rgb(237,66,37);
+    background: linear-gradient(90deg, rgba(237,66,37,1) 0%, rgba(174,61,54,1) 35%, rgba(34,48,90,1) 100%);
+    color: #20305B;
+    font-family: 'Montserrat', sans-serif;
+}
+
+p {
+    font-weight: 500;
+    font-size: 24px;
+    margin-right: 32px;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container {
+    max-width: 906px;
+    margin: 0 auto;
+}
+
+/* Общие стили и стили для главной страницы */
+.header-container {
+    background-color: #20305B;
+    padding: 40px 0;
+    
+}
+
+ul li {
+    list-style-type: none;
+}
+
+.menu {
+    max-width: 754px;
+    display: flex; 
+}
+
+.menu a {
+    color: #20305B;
+    display: inline-block;
+    width: 230px;
+    background: #FFFFFF;
+    margin-right: 32px;
+    text-align: center;
+    height: 64px;
+    line-height: 64px;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+}
+
+.about {
+    padding: 40px 0;
+    background-color: #ffffff;
+}
+
+.about__top__logo {
+    align-items: center;
+}
+
+h1, h2 {
+    font-weight: 900;
+}
+
+h1 {
+    font-weight: 900;
+    font-size: 48px;
+    margin-left: -35px;
+}
+
+h2 {
+    font-family: Montserrat;
+    font-weight: 900;
+    font-size: 24px;
+    text-align: center;
+}
+
+
+.about__center__center {
+    font-weight: 400;
+    text-align: center;
+    width: 403px;
+    padding: 20px 0 70px;
+    line-height: 29px;
+    background: #EEE7E1;
+}
+
+.about__center__center span {
+    font-weight: 900;
+}
+
+.about__bottom {
+    max-width: 838px;
+    margin: 0 auto;
+    padding: 0px 0px 40px 0;
+    background: #EEE7E1;
+}
+
+.about__bottom  p {
+    font-weight: 500;
+    align-items: center;
+    letter-spacing: 0.03em;
+}
+
+footer p {
+    font-weight: 500;
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    padding: 88px 0 33px 0;
+}
+
+footer a {
+    color: #FFFFFF;
+}
+
+footer a:hover {
+    color: #FFFFFF;
+}
+
+
+/* Стили для страницы "О проблеме" */
+.problem {
+    padding: 43px 0 75px 0;
+}
+
+
+.problem__title {
+    width: 229px;
+}
+
+.problem__text {
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 24px;
+    margin: 32px auto 48px;
+    max-width: 695px;
+}
+
+.problem__images {
+    flex-wrap: wrap;
+}
+
+.problem__images img {
+    display: inline-block;
+    margin: 0 auto 25px;
+}
+
+/* Стили для страницы "Пути решения" */
+
+.decision {
+    padding: 43px 0 64px 0;
+    background: #EEE7E1;
+}
+
+.decision__text {
+    font-size: 24px;
+    margin: 32px auto 48px;
+    max-width: 695px;
+    margin: 4px auto 13px;
+}
+
+.decision__fund {
+    max-width: 695px;
+    margin: 0 auto;
+}
+
+.decision__fund__title {
+    text-align: start;
+}
+
+.decision__fund__list li{
+    margin-top: 20px;
+}
+
+.decision__fund__list span {
+    font-weight: 900;
+}
+
+/* Стили для страницы "Я предлагаю" */
+
+.offer__top {
+    padding: 0;
+}
+
+.offer {
+    padding: 43px 0  0 0;
+    background: #EEE7E1;
+}
+
+.offer__title {
+    text-align: center;
+}
+
+.offer__text {
+    font-size: 24px;
+    max-width: 695px;
+    margin: 20px auto;
+}
+
+.offer__text:last-child {
+    padding-bottom: 40px;
+}
+
+.offer__bottom {
+    
+}
+
+.offer-bottom__img {
+    position: relative;
+   bottom: 30px;
+   right: 100px;
+}
+
+.offer__bottom__text {
+    max-width: 800px;
+    color: #ffffff;
+    text-align: right;
+    margin: 24px 0 104px auto;
+}
+
+.offer__bottom__text span {
+    font-weight: 900;
+}
